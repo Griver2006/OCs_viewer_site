@@ -1,0 +1,7 @@
+.decorative-line {
+    border: none;
+    border-top: 1px solid #ccc; /* Цвет обычной линии */
+    border-bottom: 2px solid #8d6e63; /* Цвет и толщина акцентированной линии */
+    width: 80%; /* Ширина всей линии */
+    margin: 20px auto; /* Центрирование и отступы */
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'BaseFonts';
+    src: url('/static/fonts/kentledge-extrabold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.base-font {
+    font-family: 'BaseFonts', sans-serif;
+}
+
+.center-text {
+    text-align: center;
+}

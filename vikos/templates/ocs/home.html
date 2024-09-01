@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load django_bootstrap5 %}
+
+{% block title %}Мои OC{% endblock %}
+
+{% block content %}
+  <h1 class="base-font center-text" style="font-size: 60px; color: #B89476;">viktoria's ocs!</h1>
+  <p class="base-font center-text" style="color: #B89476;">Архив всех моих OCs и сопутствующая информация к ним</p>
+  <hr class="decorative-line">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      {% include "includes/character_card.html" %}
+  </div>
+{% endblock %}
